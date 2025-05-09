@@ -1,5 +1,3 @@
-second highest value:
-
 import java.util.*;
 
 class Main {
