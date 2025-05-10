@@ -1,0 +1,107 @@
+arrays
+
+-Collection of similar kind of data in a continuous allocation.
+-In c and c++ we have pointers so definitely elements will be stored in  continuous format.
+-In java we don't have pointers, then there is a chance of elements might store in random places.
+
+syntax:
+datatype[] array name;
+
+primitive and non primitive. 
+primitive data types cant be divided, non primitive datatypes can be divided.
+
+primitive: int, float.
+non primitive: string, all the objects that were created by the user.
+
+Class node{
+int data;
+node next;
+}
+
+-All the objects will be stored in heap memory, all the references will be stored in stack memory. 
+-Stack memory having less space compared to heap.
+
+example:
+
+datatype[] array name;
+int a =10;
+int b =12;
+int c =14;
+int d =16;
+
+int [] arr = {10,12,14,16} 
+
+-
+-
+-If we create multiple variables to the get the data simply we can print that variable, when it comes to array if we want to print the data we print using index values  by default index values starts with zero  
+
+int[] arr = {1,2,3,4,5};
+
+-declaration and initialization happened at the same address line 
+
+
+int[] arr = {1,2,3,4,5}
+for(int i=0; i< arr.length;i++);{
+system.out.println(arr[i]);
+}
+
+
+--to get the length of the array we have a method call arr.length
+--in strings it is string_name.length() and in arrays it is array_name.length 
+
+camel case and snake case:
+
+
+
+
+
+in java it is preferred to use camel case to write production level code 
+
+example- void additionOfTwoNumbers(){
+
+
+
+
+
+types of printing formats for array values:
+
+for(int i=0; i< arr.length;i++);{
+system.out.println(arr[i]);
+}
+ we can print array values using simple 'for' loop
+
+
+for(int i: arr){
+system.out.println(i+" ");
+} 
+-we can print array values using 'for each' loop 
+-in for each loop we don't need index values 
+ 
+
+system.out.println(Arrays.toString(arr));
+--'toString' is an inbuilt method to print array.
+--'toString' can accept only one argument and that to array 
+ 
+
+Declaring the size of an array and initializing the values later.
+array having fixed size, if we declare an array size it cant be changed.
+
+int[] arr = new int [5];
+-int arr' array reference is created, with the help of new keyword actual object will be created in the heap memory for that particular datatype and size 
+-if the array is an integer, all the default values are zeroes. 
+-if it is a string, all the default values are null and null is a literal  
+
+int[] arr = new int [5];
+arr[0] = 1;
+arr[1] = 2;
+arr[2] = 3;
+arr[3] = 4;
+arr[4] = 5;
+
+output : 0
+
+
+
+
+--whenever you are trying to assign or trying to get nth value of the array we will the exception called "array out of one".
+
