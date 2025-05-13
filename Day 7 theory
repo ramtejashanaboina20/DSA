@@ -1,0 +1,26 @@
+ArrayList:
+
+--array having fixed size so once we declare we cant change either increase or decrease , to increase array size dynamically we have to use ArrayList, it belongs to collection frame works.
+what is a frame work?
+-- frame work is nothing but predefined methods and will guide the program.
+
+syntax:
+List<IWraper Class> ArrayListName = new ArrayList();
+example:
+List<Integer> leaders = new ArrayList<>();
+
+--list is a interface and interface contains incomplete methods. 
+--wraper class is not a premitive data type, its just a class. 
+--and in collections we have to use wraper class.
+-- '<>' are called generics. 
+--'ArrayList' is a class and it contains complete methods.
+--ArrayList is a dynamic array, if my array size is 2, if we add 3rd element the size of array will be doubled and it will copy previous element vice versa the array size will becomes half.
+--as ArrayList is a class you have to import the array list class, now we can access all the predefined methods which consists in array list.
+
+
+SubArrays:
+--must be continous or a single element in an array 
+example:
+int[] arr = {2,1,-4,3,4,5,-8,-6}
+{2,1,-4} is a SubArray, {1} is a SubArray.
+
