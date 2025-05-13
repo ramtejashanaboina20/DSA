@@ -1,0 +1,22 @@
+public class MaxStockProfit {
+    public static void main(String[] args) {
+        int[] prices = {7, 1, 5, 3, 6, 4};
+        int minPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+
+        for (int i = 0; i < prices.length; i++) {
+            // Track the minimum price so far (best day to buy)
+            if (prices[i] < minPrice) {
+                minPrice = prices[i];
+            }
+
+            // Check if selling today would give better profit
+            int profit = prices[i] - minPrice;
+            if (profit > maxProfit) {
+                maxProfit = profit;
+            }
+        }
+
+        System.out.println("Maximum Profit: " + maxProfit);
+    }
+}
