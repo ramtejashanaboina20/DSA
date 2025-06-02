@@ -1,2 +1,3 @@
 ## Figma Design
-[Click here to view the Figma design]([https://www.figma.com/file/your-link-here](https://www.figma.com/design/gDKBrjTlqjkttAI85eTfB3/recipe-sharing?node-id=0-1&t=L0kdQLzlqWqObEk5-1))
+## 🔗 Figma portfolio Project Link
+[View UI/UX Design in Figma](https://www.figma.com/design/PFSvTIPUDVsulfc6Zw7K9T/portfolio-wireframe?t=vNLV6q5VLXNGLylR-1)
